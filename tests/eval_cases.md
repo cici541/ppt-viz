@@ -93,3 +93,35 @@ Please turn this slide content into a visual generation prompt. Slide: Our platf
 - Chooses a horizontal timeline or staged roadmap instead of a statistical chart.
 - Uses a professional government-enterprise cybersecurity style with blue-white palette, restrained technology visuals, strict alignment, and readable finished-image text.
 - Groups the timeline into clear stages such as system start, national strategy, legal system formation, data and critical infrastructure protection, and AI/digital infrastructure security.
+
+## Case 7: Blue Gold Tech digital transformation roadmap
+
+**Prompt**
+
+```text
+不用问，直接生成。使用蓝金科技风，把这一页转成 PPT 画面提示词：标题是“企业数字化转型从能力建设走向价值创造”。内容包括数据治理、流程在线、AI智能运营、组织协同、业务增长飞轮，想表达数字化不是系统上线，而是持续创造业务价值。输出成品图。
+```
+
+**Expected**
+
+- Uses `presets/blue-gold-tech.yaml`.
+- Outputs all required Chinese final sections.
+- Classifies the page as a roadmap, capability model, process, or transformation path slide.
+- Uses blue for digital capability, systems, process, and intelligent operations.
+- Uses gold for business value, outcomes, growth, and final conclusions.
+- Includes Blue Gold Tech mandatory prompt phrases such as `16:9 professional enterprise consulting presentation slide`, `clean white or very light blue-gray background`, `technology blue palette with gold value accents`, `hexagonal modules where appropriate`, and `blue represents digital capability and process`.
+- Avoids dark cyberpunk background, messy decorative lines, overly complex patterns, and saturated neon colors.
+
+## Case 8: Digital transformation style recommendation
+
+**Prompt**
+
+```text
+帮我把这一页转成 PPT 画面提示词：标题是“智能运营能力体系建设路线图”。内容包括数据底座、流程重构、AI Copilot、运营指标、价值闭环。还没想好风格。
+```
+
+**Expected**
+
+- Recognizes the digital transformation / intelligent operations / capability system context.
+- Recommends Blue Gold Tech style first when asking about visual style.
+- Still asks only one follow-up question per turn.

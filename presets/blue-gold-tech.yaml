@@ -1,0 +1,265 @@
+name: Blue Gold Tech
+key: blue-gold-tech
+label_zh: 蓝金科技风
+description: Enterprise consulting and digital transformation presentation style using technology blue for capability building and gold accents for business value creation.
+best_for:
+  - enterprise digital transformation
+  - strategy planning reports
+  - consulting proposals
+  - product launches
+  - industry insights
+  - technology roadmaps
+  - organization capability building
+  - data governance
+  - AI transformation
+  - intelligent operations
+  - business growth and value creation
+positioning:
+  tone:
+    - enterprise-grade
+    - digital
+    - technology-driven
+    - consulting style
+    - structured
+    - value-oriented
+    - professional and credible
+    - clean and transparent
+    - blue-gold contrast
+    - futuristic but restrained
+layout:
+  aspect_ratio: "16:9"
+  background:
+    - "#FFFFFF"
+    - "#F5F6F8"
+    - "#E6F0FF"
+  structure:
+    - top-left large title
+    - optional short subtitle or English microcopy under the title
+    - optional page number, chapter number, or light tag in the upper-right corner
+    - main visual area on the left or center
+    - analysis, process steps, or conclusion cards on the right or bottom
+    - optional bottom insight area, key conclusion area, or legend
+  recommended_compositions:
+    - left main visual plus right process or explanation
+    - title above, central graphic structure, double-column notes below
+    - left conceptual model plus right staged path
+    - central process arrow plus stage cards below
+    - blue capability modules contrasted with gold value modules
+  rules:
+    - Use strict grid alignment.
+    - Keep generous whitespace.
+    - Keep the structure stable and report-like.
+colors:
+  tech_blue_dark: "#0B3D91"
+  tech_blue_primary: "#2F6BFF"
+  tech_blue_mid: "#4CA0FF"
+  tech_blue_light: "#83B9FF"
+  tech_blue_background: "#E6F0FF"
+  gold: "#E3C17A"
+  gold_light: "#F0B84D"
+  gold_pale: "#F7E6BF"
+  gold_background: "#F2E8D4"
+  text_black: "#1A1A1A"
+  body_gray: "#4D4D4D"
+  secondary_gray: "#7A7A7A"
+  divider_gray: "#DBDBDB"
+  background_gray: "#F5F6F8"
+  white: "#FFFFFF"
+color_rules:
+  - Blue represents digital capability, systems, information technology, intelligent operations, and process advancement.
+  - Gold represents value creation, business outcomes, innovation benefits, and final goals.
+  - Use white, very light blue-gray, or very light gray as the main page background.
+  - Use blue as the main visual color and gold as emphasis for business value or outcomes.
+  - Do not mix blue and gold randomly; keep their semantic roles clear.
+  - Avoid red unless the slide explicitly expresses risk, problems, or warnings.
+  - Keep saturation restrained, clean, and transparent.
+information_hierarchy:
+  primary:
+    usage: Core viewpoint, core model, key conclusion
+    treatment:
+      - large black or dark-blue title
+      - blue for important numbers or stage numbers
+      - gold for value-oriented core outcomes
+      - position in the visual focal area
+  secondary:
+    usage: Stages, modules, capabilities, paths, comparison items
+    treatment:
+      - blue or gold labels
+      - cards, arrow nodes, or hexagonal modules
+      - medium type size
+      - visibly subordinate to the primary message
+  tertiary:
+    usage: Explanations, supplementary notes, footnotes, background information
+    treatment:
+      - dark gray or mid-gray text
+      - smaller type size
+      - light gray or light blue background boxes
+      - should not compete with the main visual
+typography:
+  chinese:
+    preferred:
+      - SimHei
+      - Source Han Sans
+      - Microsoft YaHei
+  english:
+    preferred:
+      - Inter
+      - Source Han Sans
+      - Helvetica Neue
+      - Arial
+  title:
+    size: "32-36pt"
+    weight: bold
+    color:
+      - "#1A1A1A"
+      - "#0B3D91"
+  module_title:
+    size: "18-22pt"
+    weight: semibold
+    color:
+      - "#0B3D91"
+      - "#1A1A1A"
+  body:
+    size: "12-14pt"
+    weight: regular
+    color: "#4D4D4D"
+  emphasis:
+    size: "12-16pt"
+    weight: medium
+    color:
+      - "#2F6BFF"
+      - "#E3C17A"
+  auxiliary:
+    size: "10-12pt"
+    weight: light
+    color: "#7A7A7A"
+  rules:
+    - Titles should feel authoritative, stable, and clear.
+    - Body text should be concise and easy to read.
+    - Keep text inside graphics short; avoid long sentences inside modules.
+    - English microcopy may be decorative but must not harm readability.
+visual_elements:
+  hexagonal_modules:
+    usage:
+      - systems
+      - capabilities
+      - modules
+      - organization units
+      - capability matrices
+      - system architecture
+      - value creation chains
+    treatment:
+      - translucent blue or gold hexagons
+      - slight 3D perspective when useful
+      - glass-like texture
+      - soft shadow
+  process_arrows:
+    usage:
+      - staged advancement
+      - transformation paths
+      - capability evolution
+    treatment:
+      - blue arrows for digital processes
+      - gold arrows for intelligent outcomes or value realization
+      - simple, clear, and directionally obvious
+  stage_numbers:
+    usage:
+      - logical order
+      - reading path
+    treatment:
+      - two-digit labels such as 01, 02, 03
+      - inside hexagons, rounded cards, or process nodes
+  card_modules:
+    usage:
+      - stage descriptions
+      - key capabilities
+      - metrics
+      - conclusions
+    treatment:
+      - white or light-blue background
+      - blue header strip
+      - gold value tag
+      - light gray border
+  loop_arrows:
+    usage:
+      - closed loop
+      - flywheel
+      - continuous optimization
+      - transformation cycle
+visual_texture:
+  allowed:
+    - translucent modules
+    - light glassmorphism
+    - soft gradients
+    - low-opacity shadows
+    - lightweight 3D hexagons
+    - clean icons
+    - subdued grid lines
+    - light blue glow
+    - blue-gold gradient arrows
+  avoid:
+    - strong neon lighting
+    - dark cyberpunk backgrounds
+    - complex particle backgrounds
+    - meaningless decorative lines
+    - large texture backgrounds
+    - over-realistic 3D
+    - unrelated icon piles
+charts:
+  suitable:
+    - staged process diagram
+    - capability architecture diagram
+    - hexagonal model
+    - roadmap
+    - flywheel
+    - card-style metrics
+    - comparison matrix
+    - simple column chart
+    - simple bar chart
+    - timeline
+  rules:
+    - Use blue for capabilities, process, and systems.
+    - Use gold for value, outcomes, and returns.
+    - Use gray for background, auxiliary, or inactive states.
+    - Keep chart lines thin and clean.
+    - De-emphasize axes and grid lines.
+    - Do not use complex 3D pie charts.
+    - Do not add decorative chart clutter.
+long_text_rules:
+  - Do not stack dense paragraphs directly on the page.
+  - Use columns, cards, light-blue or light-gray background boxes, blue emphasis bars, gold conclusion tags, bullets, or keyword emphasis.
+  - Make value-oriented keywords gold only when they express business outcomes.
+  - Suggested long-text box background: "#F5F6F8" or "#E6F0FF".
+  - Suggested border: "#DBDBDB" or a light blue border.
+  - Suggested left emphasis bar: "#2F6BFF".
+  - Suggested value conclusion tag: "#E3C17A".
+avoid:
+  - overdone cyberpunk effects
+  - dark keynote-style launch backgrounds
+  - messy technology lines
+  - complex texture backgrounds
+  - flashy 3D charts
+  - saturated neon colors
+  - large black backgrounds
+  - unstructured information piles
+mandatory_prompt_phrases:
+  - "16:9 professional enterprise consulting presentation slide"
+  - "clean white or very light blue-gray background"
+  - "blue and gold technology style"
+  - "technology blue palette with gold value accents"
+  - "structured corporate digital transformation layout"
+  - "consulting report style"
+  - "hexagonal modules where appropriate"
+  - "transparent blue and gold glass-like blocks"
+  - "soft gradients and subtle shadows"
+  - "clear visual hierarchy"
+  - "numbered stages such as 01 / 02 / 03"
+  - "blue represents digital capability and process"
+  - "gold represents business value and outcomes"
+  - "clean arrows showing transformation path"
+  - "generous whitespace"
+  - "strict grid alignment"
+  - "concise readable Chinese typography"
+  - "no messy decorative lines"
+  - "no dark cyberpunk background"
+  - "no overly complex patterns"

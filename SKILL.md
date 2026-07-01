@@ -42,6 +42,8 @@ Use these defaults only when the user asks to directly generate or does not prov
 - Output mode: 底图模式 unless the user explicitly asks for a complete image with rendered text
 - General style: consulting preset
 - Enterprise security style: Anheng preset when content is about cybersecurity, government-enterprise reporting, security launch events, enterprise security solutions, SOC, attack-defense, data security, AI security, code audit security, or digital infrastructure
+- Digital transformation style: Blue Gold Tech preset when content is about digital transformation, strategy planning, consulting reports, growth flywheels, capability systems, value creation, intelligent operations, enterprise upgrades, or business transformation
+- If content matches both enterprise security and digital transformation themes, recommend Anheng first unless the user explicitly asks for Blue Gold Tech or blue-gold value style
 
 ## Workflow
 
@@ -113,10 +115,16 @@ If style is missing and the content belongs to cybersecurity, government-enterpr
 这页属于网络安全/政企方案场景，我建议优先用安恒风格。是否采用？
 ```
 
+If style is missing and the content belongs to digital transformation, strategy planning, consulting reports, growth flywheels, capability systems, value creation, intelligent operations, enterprise upgrades, or business transformation, recommend Blue Gold Tech first:
+
+```text
+这页属于数字化转型/战略咨询/价值创造场景，我建议优先用蓝金科技风。是否采用？
+```
+
 Otherwise ask:
 
 ```text
-这页更希望偏商务咨询风、蓝色科技感风，还是安恒风格？
+这页更希望偏商务咨询风、蓝色科技感风、安恒风格，还是蓝金科技风？
 ```
 
 ### Phase 4: Style Loading
@@ -126,13 +134,16 @@ Load the matching preset before generating the final prompt:
 - `presets/anheng.yaml` for 安恒风格 / Anheng style
 - `presets/consulting.yaml` for 商务咨询风 / consulting style
 - `presets/tech-blue.yaml` for 蓝色科技感风 / blue technology style
+- `presets/blue-gold-tech.yaml` for 蓝金科技风 / Blue Gold Tech style
 
 Style loading rules:
 
 - If the user explicitly selects a preset, use it.
 - If the user says "直接生成" or "不用问" and the content is enterprise-security-related, use `presets/anheng.yaml`.
-- If the content is not enterprise-security-related and no style is specified, use `presets/consulting.yaml`.
+- If the user says "直接生成" or "不用问" and the content is digital-transformation-related, use `presets/blue-gold-tech.yaml`.
+- If the content is neither enterprise-security-related nor digital-transformation-related and no style is specified, use `presets/consulting.yaml`.
 - If the user asks for a blue technology look, use `presets/tech-blue.yaml`.
+- If the user asks for 蓝金科技风, blue-gold, enterprise digital transformation style, value-creation consulting style, or a blue-and-gold consulting technology look, use `presets/blue-gold-tech.yaml`.
 - Preset rules override generic defaults.
 
 ### Phase 5: Prompt Generation
