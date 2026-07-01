@@ -76,3 +76,20 @@ Please turn this slide content into a visual generation prompt. Slide: Our platf
 - Recognizes the cybersecurity/SOC context.
 - Recommends Anheng style first when asking about visual style.
 - If the user requests direct generation, defaults to Anheng style.
+
+## Case 6: Government-enterprise cybersecurity history timeline
+
+**Prompt**
+
+```text
+请你用这个技能，帮我做一页中国近20年网络安全发展史的PPT。输出成品图，我想要用政企风格。
+```
+
+**Expected**
+
+- Uses Chinese fields.
+- Classifies the page as a timeline or industry history slide.
+- Defines the core message as China's cybersecurity evolution from compliance construction toward data security, critical infrastructure protection, AI security, and digital infrastructure security governance.
+- Chooses a horizontal timeline or staged roadmap instead of a statistical chart.
+- Uses a professional government-enterprise cybersecurity style with blue-white palette, restrained technology visuals, strict alignment, and readable finished-image text.
+- Groups the timeline into clear stages such as system start, national strategy, legal system formation, data and critical infrastructure protection, and AI/digital infrastructure security.
