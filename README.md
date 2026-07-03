@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:08287F,50:0F256C,100:087380&text=ppt-visual-prompt-designer&fontColor=FFFFFF&fontSize=40&desc=Multi-turn%20Claude%20Skill%20for%20presentation-ready%20visual%20prompts&descAlignY=62" alt="ppt-visual-prompt-designer banner" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&color=0:08287F,50:0F256C,100:087380&text=ppt-viz&fontColor=FFFFFF&fontSize=48&desc=PPT%E8%AE%BE%E8%AE%A1%20skill%20for%20presentation-ready%20visual%20prompts&descAlignY=62" alt="ppt-viz banner" />
 </p>
 
 <p align="center">
@@ -10,9 +10,9 @@
   <img alt="Prompt Engineering" src="https://img.shields.io/badge/prompt-engineering-C7001C.svg">
 </p>
 
-# ppt-visual-prompt-designer
+# ppt-viz
 
-`ppt-visual-prompt-designer` is a multi-turn Claude Skill for transforming slide content into presentation-ready visual generation prompts.
+`ppt-viz` is a multi-turn skill for transforming slide content into presentation-ready visual generation prompts. It can also be invoked with the Chinese short name `PPT设计`.
 
 It is not a PPT generator. It helps Claude analyze a slide's message, choose a justified chart or visual structure, confirm missing design constraints, load a style preset, and output a copy-ready final prompt for AI visual tools.
 
@@ -97,6 +97,8 @@ npx skills add https://github.com/cici541/ppt-visual-prompt-designer
 ```
 
 Repository: [cici541/ppt-visual-prompt-designer](https://github.com/cici541/ppt-visual-prompt-designer)
+
+After installation, invoke the skill with `ppt-viz` or `PPT设计`.
 
 ## Example
 

@@ -1,16 +1,9 @@
 ---
-name: ppt-visual-prompt-designer
-version: 1.0.0
-author: Jay
-description: Multi-turn Claude skill for generating high-quality PPT visual prompts
-tags:
-  - ppt
-  - presentation
-  - visual-design
-  - prompt-engineering
+name: ppt-viz
+description: "Transform PPT slide content into structured, presentation-ready visual generation prompts. Use when the user says ppt-viz or PPT设计, asks to turn PPT page content, slide copy, outlines, data summaries, or timelines into visual prompts, asks to design a slide image prompt, or asks whether a page needs a chart or visual structure."
 ---
 
-# ppt-visual-prompt-designer
+# ppt-viz
 
 ## Purpose
 
@@ -20,6 +13,7 @@ Use this skill to transform PPT slide content into structured, presentation-read
 
 Use this skill whenever the user asks to:
 
+- use PPT设计 or ppt-viz
 - turn PPT page content into a visual prompt
 - design a slide image prompt
 - generate PPT画面提示词
